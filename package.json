@@ -1,0 +1,27 @@
+{
+  "name": "angular2-lib",
+  "version": "1.0.0",
+  "description": "My own angular2 libs",
+  "main": "index.js",
+  "dependencies": {
+    "angular2": "^2.0.0-beta.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gucheen/angular2-lib.git"
+  },
+  "keywords": [
+    "angular2",
+    "libs"
+  ],
+  "author": "guchengf@live.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gucheen/angular2-lib/issues"
+  },
+  "homepage": "https://github.com/gucheen/angular2-lib#readme"
+}
