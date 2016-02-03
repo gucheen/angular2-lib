@@ -3,15 +3,15 @@ import {Injectable} from 'angular2/core';
 interface ToastServiceInterface {
   toastList: Element[];
   timerList: Number[];
-  show(message: string, type: string): void;
+  show(message: string, type?: string): void;
 }
 
 @Injectable()
 export class ToastService implements ToastServiceInterface {
   private Container: Element;
-  
+
   public toastList = [];
-  
+
   public timerList =[];
 
   constructor() {
@@ -20,7 +20,7 @@ export class ToastService implements ToastServiceInterface {
     document.body.appendChild(this.Container);
   }
 
-  public show(message: string, type: string) {
+  public show(message: string, type?: string) {
     var toast = document.createElement('div');
     toast.textContent = message;
     toast.className = 'toast ' + (type ? type : 'success');
