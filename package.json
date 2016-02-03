@@ -1,6 +1,6 @@
 {
   "name": "angular2-lib",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "My own angular2 libs",
   "main": "index.js",
   "dependencies": {
