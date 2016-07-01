@@ -1,4 +1,4 @@
-import {Injectable} from 'angular2/core';
+import {Injectable} from '@angular/core';
 
 interface ToastServiceInterface {
   toastList: Element[];
@@ -12,7 +12,7 @@ export class ToastService implements ToastServiceInterface {
 
   public toastList = [];
 
-  public timerList =[];
+  public timerList = [];
 
   constructor() {
     this.Container = document.createElement('div');
